@@ -38,7 +38,7 @@ define([
       let tariffObj = null;
       this.updateAccountData(widget);
 
-      console.log("init my 1", this._getAccountHash());
+      console.log("init hash", this._getAccountHash());
 
       // получение уведомлений по аккаунту
       this.getAccountNotifications(widget);
